@@ -11,6 +11,7 @@ A state-of-the-art multimodal fashion search system that solves the "Visual Domi
 .
 ├── fashion-dataset/           # Dataset images and styles.csv
 ├── offline_data/              # Generated search indices (image_embeddings.pt)
+├── offline_features/           # Generated CLIP features 
 ├── save/                      # Model checkpoints
 │   ├── fine_tuned_clip_model16/
 │   └── my_resampler_lora_v1/  # Your trained Projector & LoRA
